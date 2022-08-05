@@ -1,5 +1,3 @@
-# Getting Started with Create React App
-
 # Simple Shopping Cart using React Js
 
 A web app created with react.js using free api. book cover color taken from public api 'http://jsonplaceholder.typicode.com/photos?_start=0&_limit=9'
