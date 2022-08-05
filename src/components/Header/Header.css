@@ -1,0 +1,128 @@
+.header {
+    margin: 20px;
+    margin-top: 50px;
+}
+
+.header-title {
+    width: 30.125rem;
+    height: 8rem;
+    font-weight: bolder;
+    font-size: 4rem;
+    line-height: 4rem;
+    color: #54328f;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+@media(max-width: 668px) {
+    .header-title {
+      width: 20rem !important;
+      font-size: 3rem;
+    }
+  }
+
+.header-text {
+    width: 28.925rem;
+    height: 5.438rem;
+    top: 10rem;
+    font-size: 1.125rem;
+    line-height: 1.813rem;
+    color: var(--primary-grey);
+    margin: 2rem 0rem;
+    order: 1;
+}
+
+@media(max-width: 668px) {
+    .header-text {
+      width: 20rem;
+      margin: 4rem 0rem;
+    }
+  }
+
+.picture {
+    max-width: 25.806rem;
+    max-height: 23.922rem;
+    top: 9.548rem;
+    z-index: -1;
+    margin-top: 50px;
+    /* margin-left: 7rem; */
+}
+
+@media(max-width: 768px) {
+    .picture {
+      max-width: 20rem !important;
+      max-height: 20.922rem !important;
+    }
+  }
+
+  .header-link {
+      display: flex;
+  }
+  
+.btn-header {
+    margin-top: 2rem;
+    box-shadow: 0rem 0.5rem 2rem rgba(102, 107, 226, 0.35);
+    font-weight: bolder;
+}
+
+.btn-main-offer{
+   margin-top: 2.5rem;
+   margin-left: 3.25rem;
+   font-weight: bolder;
+   font-size: 0.875rem;
+   color: var(--primary-black);
+}
+
+.card-header {
+  width: 18.25rem;
+  height: 5.813rem;
+  background: rgba(255, 255, 255, 0.74);
+  box-shadow: 0rem 0.688rem 2.438rem var(--primary-black);
+  backdrop-filter: blur(0.688rem);
+  border-radius: 1.063rem;
+  margin: -4.124rem 0rem 0rem -0.5rem;
+}
+
+@media(max-width: 668px) {
+  .card-header {
+    margin: -4rem 8rem 0rem 0rem;
+  }
+}
+
+
+.img-header {
+  width: 3.313rem;
+  height: 3.313rem;
+  margin-top: -1.5rem;
+}
+
+.header-food-title {
+  margin: -3.7rem 3rem;
+  width: 13.25rem;
+  font-weight: bolder;
+}
+
+.text-header {
+  margin: 4rem 3rem;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 0.75rem;
+  line-height: 0.875rem;
+  color: #757575;
+}
+
+.header-star {
+  margin: 0.5rem 3rem;
+}
+
+.container {
+    display: flex;
+}
+
+.row-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+.coverBook{
+    margin-left: 12vw;
+}
