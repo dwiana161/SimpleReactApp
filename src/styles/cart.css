@@ -76,3 +76,32 @@ article {
   color: green;
   font-weight: bold;
 }
+
+.cart-empty {
+  height: 100%;
+  position: relative;
+  margin-top: 20%;
+}
+
+.title-cart {
+  font-size: 2rem;
+  color: blueviolet;
+  text-align: center;
+  font-family: cursive;
+}
+
+.button-shop {
+  font-size: 1.3rem;
+  background-color: rgb(79, 64, 93);
+  border: 3px solid rgb(79, 64, 93);
+  border-radius: 2rem;
+  width: 20%;
+  height: 100%;
+  margin: 0;
+  position: absolute;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  cursor: pointer;
+  color: aliceblue;
+}
