@@ -9,6 +9,7 @@ section {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: auto;
+  margin-bottom: 5%;
 }
 .cards {
   width: 250px;
